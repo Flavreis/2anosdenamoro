@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/login.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">Sobre</a>
+            <a href="services.html">Serviços</a>
+            <a href="contact.html">Contatos</a>
+        </nav>
+
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class="bx bx-search"></i></button>
+        </form>
+    </header>
+
+    <div class="background"></div>
+    <div class="container">
+        <div class="content">
+            <h2 class="logo"><i class='bx bxl-firebase'></i>Soneka Corp.</h2>
+
+            <div class="text-sci">
+                <h2>Bem-Vinda!<br><span>Meu amor.</span></h2>
+
+                <p>Meu amor, para logar você devera colocar seu email e a senha. A senha está escondida nesta página. As vezes selecionar tudo é uma boa opção. <span>ixe</span></p>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/flávio-reis-25182b22a/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.facebook.com/flaviosnk"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/flavio.snk/"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://twitter.com/S1N3k1"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="logreg-box">
+            <div class="form-box login">
+                <form id="login-form" action="#">
+                    <h2>Fazer login</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                        <input type="email" id="email" name="email" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password" id="password" name="password" required>
+                        <label>Senha</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Lembre de mim.</label>
+                        <a href="#">Esqueceu sua senha?</a>
+                    </div>
+
+                    <button type="submit" class="btn">Continuar</button>
+
+                    <div class="login-register">
+                        <p>Novo na Soneka Corp? <a href="#" class="register-link">Crie sua conta</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <form action="#">
+                    <h2>Criar conta</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user' ></i></span>
+                        <input type="text" required>
+                        <label>Nome</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Concordo com os termos & condições.</label>
+                    </div>
+
+                    <button type="submit" class="btn">Continuar</button>
+
+                    <div class="login-register">
+                        <p>Você já tem uma conta? <a href="#" class="login-link">Fazer login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
